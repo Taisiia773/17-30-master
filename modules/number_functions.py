@@ -73,9 +73,10 @@ def add_AC():
 def add_plus_minus():
     get_symbols("+/-")
 def add_percent():
-    get_symbols("%")
+    get_symbols( "%")
 def add_comma():
     get_symbols(".")
+
 #   
 list_sym_functions.append(add_division)
 list_sym_functions.append(add_multiply)

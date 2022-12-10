@@ -7,7 +7,7 @@ for sym in range(3,7):
     list_Symbols_Button[sym].clicked.connect(list_sym_functions[sym-3])
 # кнопка =
 list_Symbols_Button[7].clicked.connect(list_sym_functions[4])
-# AC
+#AC
 list_Symbols_Button[0].clicked.connect(list_sym_functions[5])
 # +/-
 list_Symbols_Button[1].clicked.connect(list_sym_functions[6])
